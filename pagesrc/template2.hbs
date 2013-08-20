@@ -1,0 +1,31 @@
+---
+title: template2 page title!
+description: This is template2 description.
+---
+<!doctype html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<h1>Hello Handlebars! - {{ title }}</h1>
+
+<hr>
+
+<p>{{ description }}</p>
+
+<hr>
+
+<ul>
+<li>{{ config.prop1 }}</li>
+<li>{{{ config.prop2 }}}</li>
+</ul>
+
+<hr>
+
+{{> products }}
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+prop1: prop1-val<b>bold tag</b>
+prop2: prop2-val<b>bold tag</b>
+
+products:
+  - name: wimax
+    price: 1000
+  - name: e-mobile
+    price: 2000

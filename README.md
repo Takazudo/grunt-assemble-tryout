@@ -6,8 +6,8 @@ $ grunt
 ```
 
 will create html files to `./result`.  
-Page source files are in `./pagesrc`.
-Partial templates are in `./templates/partials`.
+Page source files are in `./pagesrc`.  
+Partial templates are in `./templates/partials`.  
 Data is in `config.yml`.
 
 

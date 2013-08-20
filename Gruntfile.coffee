@@ -13,8 +13,14 @@ module.exports = (grunt) ->
         options:
           data: [ 'config.yml' ]
         files: [
-          'result/result1.html': 'pagesrc/template1.hbs'
-          'result/result2.html': 'pagesrc/template2.hbs'
+          {
+            src: 'pagesrc/template1.hbs'
+            dest: 'result/result1.html'
+          }
+          {
+            src: 'pagesrc/template2.hbs'
+            dest: 'result/result2.html'
+          }
         ]
 
   grunt.registerTask 'default', [
